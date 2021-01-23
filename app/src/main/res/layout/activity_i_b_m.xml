@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F0F0"
+    tools:context=".View.IBMActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/ibmm"></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextIBM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:text="IBM" />
+
+            <TextView
+                android:id="@+id/TextManger_of_IBM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ginni Rometty" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/textIBM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="2dp"
+                android:text="IBM was founded in 1911 in Endicott, New York, as the Computing-Tabulating-Recording Company (CTR) and was renamed &quot;International Business Machines&quot; in 1924. IBM is incorporated in New York and has operations in over 170 countries.[8]  In the 1880s technologies emerged that would ultimately form the core of International Business Machines (IBM). Julius E. Pitrap patented the computing scale in 1885;[9] Alexander Dey invented the dial recorder (1888);[10] Herman Hollerith (1860–1929) patented the Electric Tabulating Machine;[11] and Willard Bundy invented a time clock to record a worker's arrival and departure time on a paper tape in 1889.[12] On June 16, 1911, their four companies were amalgamated in New York State by Charles Ranlett Flint forming a fifth company, the Computing-Tabulating-Recording Company (CTR) based in Endicott, New York.[1][13] The five companies had 1,300 employees and offices and plants in Endicott and Binghamton, New York; Dayton, Ohio; Detroit, Michigan; Washington, D.C.; and Toronto.[citation needed]  They manufactured machinery for sale and lease, ranging from commercial scales and industrial time recorders, meat and cheese slicers, to tabulators and punched cards. Thomas J. Watson, Sr., fired from the National Cash Register Company by John Henry Patterson, called on Flint and, in 1914, was offered a position at CTR.[14] Watson joined CTR as General Manager then, 11 months later, was made President when court cases relating to his time at NCR were resolved.[15] Having learned Patterson's pioneering business practices, Watson proceeded to put the stamp of NCR onto CTR's companies.[16] He implemented sales conventions, &quot;generous sales incentives, a focus on customer service, an insistence on well-groomed, dark-suited salesmen and had an evangelical fervor for instilling company pride and loyalty in every worker&quot;.[17][18] His favorite slogan, &quot;THINK&quot;, became a mantra for each company's employees.[17] During Watson's first four years, revenues reached $9 million ($133 million today) and the company's operations expanded to Europe, South America, Asia and Australia.[17] Watson never liked the clumsy hyphenated name &quot;Computing-Tabulating-Recording Company&quot; and on February 14, 1924, chose to replace it with the more expansive title &quot;International Business Machines&quot; which had previously been used as the name of CTR's Canadian Division.[19] By 1933 most of the subsidiaries had been merged into one company, IBM.[20] " />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

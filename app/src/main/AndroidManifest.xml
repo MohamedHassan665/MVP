@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mvp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MVP">
+        <activity android:name=".View.twitwerActivity"></activity>
+        <activity android:name=".View.IBMActivity" />
+        <activity android:name=".View.AmazoneActivity" />
+        <activity android:name=".View.ApppleActivity" />
+        <activity android:name=".View.InstagramActivity" />
+        <activity android:name=".View.OrcalActivity" />
+        <activity android:name=".View.MicrosoftActivity" />
+        <activity android:name=".View.favourites_item" />
+        <activity android:name=".View.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
